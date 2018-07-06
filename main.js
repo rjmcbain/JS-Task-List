@@ -15,7 +15,7 @@ function loadEventListeners() {
   // Remove task
   taskList.addEventListener("click", removeTask);
   // Clear task
-  clearbtn.addEventListener('click', clearTasks);
+  clearBtn.addEventListener('click', clearTasks);
 }
 
 // Add Task
@@ -59,5 +59,5 @@ function removeTask(e) {
 
 // Clear Tasks
 function clearTasks() {
-   taskList.innerHTML = '';
+  //  taskList.innerHTML = '';
 }
